@@ -13,7 +13,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" translucent />
       <Animated.View style={[styles.innerContainer, /*animatedStyle*/]}>
-        <Text style={styles.text}>To test issue please uncomment useAnimatedKeyboard and remove style from innerContainer!</Text>
+        <Text style={styles.text}>To test issue please uncomment useAnimatedKeyboard and uncomment style from innerContainer!</Text>
         <TextInput placeholder="Some great placeholder..." />
       </Animated.View>
     </View>
